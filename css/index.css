@@ -1,0 +1,57 @@
+:root {
+  /* Primary colors */
+  --Very-dark-blue: hsl(208, 49%, 24%);
+  /* Neutral colors */
+
+  --White: hsl(0, 0%, 100%);
+  --Grayish-blue: hsl(240, 2%, 79%);
+  --Very-dark-grayish-blue: hsl(207, 13%, 34%);
+  --Very-dark-black-blue: hsl(240, 10%, 16%);
+
+  /* Gradient */
+
+  --Very-light-red: hsl(13, 100%, 72%);
+  --Light-red: hsl(353, 100%, 62%);
+
+  --Very-dark-gray-blue: hsl(237, 17%, 21%);
+  --Very-dark-desaturated-blue: hsl(237, 23%, 32%);
+  /* fonts */
+  --over-font-family: "Overpass", sans-serif;
+}
+
+body{
+  background: var(--Grayish-blue);
+}
+
+.font-dark-blue{
+  color: var(--Very-dark-blue);
+}
+
+.font-light-red{
+  color: var(--Light-red);
+}
+
+.bg-light-red{
+  background: var(--Very-light-red);
+}
+
+.bg-white{
+  background: var(--White);
+}
+
+.contain-blue{
+  border-radius: 0 90px 0 90px;
+  background: var(--Very-dark-gray-blue);
+}
+
+footer{
+  margin-top: 60px;
+  border-radius: 0 90px 0 0;
+  background: var(--Very-dark-black-blue);
+}
+
+@media (max-width: 760px){
+  #positionContain{
+    margin-top: 200px;
+  }
+}

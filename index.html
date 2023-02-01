@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogr landing page</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+
+    <div class="bg-light-red d-flex flex-column" style="height: 400px;">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.svg" alt="logo" width="65" height="24" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-white"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Product
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-white"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Company
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-white"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Connect
+                </a>
+              </li>
+            </ul>
+            <div class="navbar-nav mb-2 mb-lg-0">
+              <a class="nav-link text-white" href="#" role="button">Login</a>
+              <button class="btn bg-white text-light-red rounded-pill" type="button">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div
+        class="align-self-center d-flex flex-column align-items-center mt-4 mb-5"
+      >
+        <h1 class="fs-1 fw-semibold text-white">
+          A modern publishing platform
+        </h1>
+        <p class="text-white my-3">Grow your audience and build your online brand</p>
+        <div class="links mt-4">
+          <a
+            href="#"
+            aria-label="start for free"
+            class="btn bg-white rounded-pill font-light-red"
+          >
+            Start for Free</a
+          >
+          <a
+            href="#"
+            aria-label="learn more"
+            class="btn text-white btn-outline-light rounded-pill ms-2"
+          >
+            Learn More</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <div class="d-flex flex-column align-items-center mt-5">
+        <h2 class="font-dark-blue fs-3 fw-semibold">Designed for the future</h2>
+        <div class="d-flex flex-wrap justify-content-around mt-4 align-items-center">
+          <div style="max-width: 30rem;">
+            <div class="font-dark-blue">
+              <h3 class="fs-5 fw-semibold">Introducing an extensible editor</h3>
+              <p class="">
+                Blogr features an exceedingly intuitive interface which lets you
+                focus on one thing: creating content. The editor supports
+                management of multiple blogs and allows easy manipulation of
+                embeds such as images, videos, and Markdown. Extensibility with
+                plugins and themes provide easy ways to add functionality or
+                change the looks of a blog.
+              </p>
+            </div>
+            <div class="font-dark-blue">
+              <h3 class="fs-5 fw-semibold">Robust content management</h3>
+              <p class="">
+                Flexible content management enables users to easily move through
+                posts. Increase the usability of your blog by adding customized
+                categories, sections, format, or flow. With this functionality,
+                you’re in full control.
+              </p>
+            </div>
+          </div>
+
+          <div class="">
+            <picture class="">
+              <source
+                media="(min-width:800px)"
+                srcset="img/illustration-editor-desktop.svg"
+                width="600px"
+              />
+              <img src="img/illustration-editor-mobile.svg" alt="mobile" width="80%"/>
+            </picture>
+          </div>
+        </div>
+      </div>
+
+      <div class="contain-blue position-relative my-5">
+        <div class="position-relative d-flex flex-wrap justify-content-around align-items-center py-5">
+            <div class="position-relative">
+              <img
+                class="position-absolute top-50 start-0 translate-middle-y"
+                src="img/illustration-phones.svg"
+                alt="mobile"
+                style="max-width: 380px;"
+              />
+            </div>
+            <div class="d-flex flex-column" style="max-width: 26rem;" id="positionContain">
+              <h2 class="font-dark-blue fs-3 fw-semibold text-white">State of the Art Infrastructure</h2>
+              <p class="font-dark-blue text-white">
+                With reliability and speed in mind, worldwide data centers
+                provide the backbone for ultra-fast connectivity. This ensures
+                your site will load instantly, no matter where your readers are,
+                keeping your site competitive.
+              </p>
+            </div>
+        </div>
+      </div>
+
+      <div class="d-flex flex-wrap justify-content-around align-items-center">
+        <div class="">
+          <picture class="">
+            <source
+              media="(min-width:800px)"
+              srcset="img/illustration-laptop-desktop.svg"
+              width="600px"
+            />
+            <img src="img/illustration-laptop-mobile.svg" alt="laptop " width="80%"/>
+          </picture>
+        </div>
+        <div class="d-flex flex-column font-dark-blue" style="max-width: 30rem;">
+          <div>
+            <h3 class="fs-5 fw-semibold">Free, open, simple</h3>
+            <p class="">
+              Blogr is a free and open source application backed by a large
+              community of helpful developers. It supports features such as code
+              syntax highlighting, RSS feeds, social media integration,
+              third-party commenting tools, and works seamlessly with Google
+              Analytics. The architecture is clean and is relatively easy to
+              learn.
+            </p>
+          </div>
+          <div>
+            <h3 class="fs-5 fw-semibold">Powerful tooling</h3>
+            <p class="">
+              Batteries included. We built a simple and straightforward CLI tool
+              that makes customization and deployment a breeze, but capable of
+              producing even the most complicated sites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+        
+        <ul class="nav flex-wrap justify-content-evenly py-5">
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <img src="img/logo.svg" alt="blogr" class="logo" width="65" height="24"/>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white fw-semibold">Product</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link text-white" href="#" aria-label="Overview">Overview</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="#" aria-label="pricing">Pricing</a></li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#" aria-label="Marketplace">Marketplace</a>
+              </li>
+              <li class="nav-item"><a class="nav-link text-white" href="#" aria-label="Features">Features</a></li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#" aria-label="Integrations">Integrations</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white fw-semibold">Company</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link text-white" href="#" aria-label="About">About</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="#" aria-label="Team">Team</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="#" aria-label="Blog">Blog</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="#" aria-label="Careers">Careers</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white fw-semibold"> Connect</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link text-white" href="#" aria-label="Contact">Contact</a></li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#" aria-label="Newsletter">Newsletter</a>
+              </li>
+              <li class="nav-item"><a class="nav-link text-white" href="#" aria-label="LinkedIn">LinkedIn</a></li>
+            </ul>
+          </li>
+        </ul>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
